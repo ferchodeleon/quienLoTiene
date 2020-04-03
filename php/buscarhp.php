@@ -21,10 +21,10 @@
 
 	}else{
 
-	echo $mensaje = '<script>
-   	 alert("Lo sentimos no se ha encontrado tu documento")
-   	 window.location.replace("buscar.php")
-	</script>';
+	// echo $mensaje = '<script>
+   	//  alert("Lo sentimos no se ha encontrado tu documento")
+   	//  window.location.replace("buscarhp.php")
+	// </script>';
 
 	}
 	mysqli_free_result($resultado);

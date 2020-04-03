@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,7 +11,7 @@
     <!--bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!--Estilos-->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
@@ -23,7 +21,7 @@
   <nav class="navbar navbar-expand-sm navbar navbar-dark bg-dark p-3">
       <!--dentro del nav se crea una etiqueta para gragar un logo-->
       <a href="" class="navbar-brand ml-5">
-          <img src="imagen/logo.png" alt="imagen logo">
+          <img src="../imagen/logo.png" alt="imagen logo">
       </a>
       <!--se crea un boton para hacer un menu desolegable haburguesa el cual llma al id de donde va a realizar el colapso-->
       <button type="button" class="navbar-toggler" data-toggle="collapse"data-target="#firstnav">
@@ -90,14 +88,15 @@
 
 </form>
 
-    <footer class="site-footer">
+<!--footer-->
+<footer class="site-footer ">
         <div class="container">
           <div class="row">
             <div class="col-sm-12 col-md-6">
               <h6>Nosotros</h6>
-              <p class="text-justify">Esta plataforma web permite gestionar la busqueda y el reporte de Documentos perdidos en colaboracion con el ciudadano que decea realizar el reporte de algun tipo de documento que se ha encontrado, esta plataforma no se hace responsable del tratamiento de los datos que aqui se introducen, se garantiza el total tratamiento de datos de los documentos aqui reportados</p>
+              <p class="text-justify">Esta plataforma web permite gestionar la busqueda y el reporte de Documentos perdidos en colaboración con el ciudadano que desea realizar el reporte de algun tipo de documento que ha encontrado, así el ciudadano podrá recuperar sus documentos perdidos. Garantizamos el tratamiento de datos de los documentos aquí reportados</p>
             </div>
-  <!--utilizar grid-->
+  
             <div class="col-xs-6 col-md-3">
               <h6>links de Ayuda</h6>
               <ul class="footer-links">
@@ -110,11 +109,12 @@
             </div>
   
             <div class="col-xs-6 col-md-3">
-              <h6>Quick Links</h6>
+              <h6>Accesos Rapidos</h6>
               <ul class="footer-links">
                 <li><a href="index.html">Volver</a></li>
                 <li><a href="buscar.html">Buscar</a></li>
                 <li><a href="reportar.html">Reportar</a></li>
+                <li><a href="registro.html">Registro</a></li>
                 <li><a href="recomendaciones.html">Recomendaciones</a></li>
               </ul>
             </div>
@@ -125,10 +125,10 @@
           <div class="row">
             <div class="col-md-8 col-sm-6 col-xs-12">
               <p class="copyright-text">Todos los derechos resevados :
-           <a href="#">J Contreras,D Vargas,F Leon</a>.
+           <a href="#">J Contreras,D Vargas,F Leon</a>
               </p>
             </div>
-  <!--redes sociales-->
+  
             <div class="col-md-4 col-sm-6 col-xs-12">
               <ul class="social-icons">
                 <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
